@@ -5,7 +5,7 @@ export default Vue.extend({
     template: `
         <div>
         <h1>Ag grid demo</h1>
-        <div id="myGrid" style="height: 115px;width:500px" class="ag-theme-fresh"></div>        
+        <div id="myGrid" style="height: 115px;width:500px" class="ag-fresh"></div>        
         </div>
     `,
     props: ['name', 'initialEnthusiasm'],
